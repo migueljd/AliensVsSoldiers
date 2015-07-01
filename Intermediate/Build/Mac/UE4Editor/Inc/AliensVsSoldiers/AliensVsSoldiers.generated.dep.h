@@ -14,3 +14,9 @@
 #ifndef ALIENSVSSOLDIERS_AliensVsSoldiersPlayerController_generated_h
 	#include "AliensVsSoldiersPlayerController.h"
 #endif
+#ifndef ALIENSVSSOLDIERS_BaseCharacter_generated_h
+	#include "BaseCharacter.h"
+#endif
+#ifndef ALIENSVSSOLDIERS_BaseEnemy_generated_h
+	#include "BaseEnemy.h"
+#endif

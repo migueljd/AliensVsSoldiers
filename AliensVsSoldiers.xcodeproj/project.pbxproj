@@ -8,99 +8,104 @@
 
 /* Begin PBXBuildFile section */
 		3A74E6D1621E1980B066B31B /* AliensVsSoldiersGameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A47583D39BC1D423D3160307 /* AliensVsSoldiersGameMode.cpp */; };
+		46627B330CAB02EBB190595F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA5C7832D6409013F327161 /* XCTest.framework */; };
+		4C0AEEB6388CDD35C5F225B9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B10EDE3DACF141FA264895 /* OpenGLES.framework */; };
 		573FA31DA8864EE68C9F2CC0 /* AliensVsSoldiersCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A743184ECB60240A81B372C8 /* AliensVsSoldiersCharacter.cpp */; };
 		86207B060E929527C45D1B41 /* AliensVsSoldiersPlayerController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9F4AF7E825EF1DFD800CFF7 /* AliensVsSoldiersPlayerController.cpp */; };
-		91B0BF8403EAC1CAD6D91C5F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028028FE68DDDFB9D2BCF1C /* XCTest.framework */; };
-		BC2E49E2BEEF45A683AFFE79 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A643E93FEA45CE26754695 /* OpenGLES.framework */; };
-		BCCC87E20BAB24AE16CD5F88 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028028FE68DDDFB9D2BCF1C /* XCTest.framework */; };
+		C1FB2861CD3BF4769C098E24 /* BaseEnemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 951EBE700E1E3304CD95ED30 /* BaseEnemy.cpp */; };
+		C3011E703A01BAB9B7EBF01A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA5C7832D6409013F327161 /* XCTest.framework */; };
 		E1B52D05F560324E7BD5197D /* AliensVsSoldiers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2447BF93186A677AFE370 /* AliensVsSoldiers.cpp */; };
+		EA67AE4DC1CC22D98259FCFB /* BaseCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E002071189E07B34B505D209 /* BaseCharacter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		35008173A41C46AAF9C7A531 /* PBXContainerItemProxy */ = {
+		55C54D6E25F988E611BE8773 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EA67AE4DC1CC22D98259FCFB /* Project object */;
+			containerPortal = AF8981999AE121878D4F3558 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00BE260A16A0CE7F35958E3E;
+			remoteGlobalIDString = ACF0E24254FFB89239EBE569;
 			remoteInfo = "AliensVsSoldiers - Mac";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08A643E93FEA45CE26754695 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		07B10EDE3DACF141FA264895 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		08F4FE12CE5BB864055CA513 /* AliensVsSoldiersPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AliensVsSoldiersPlayerController.h; path = Source/AliensVsSoldiers/AliensVsSoldiersPlayerController.h; sourceTree = SOURCE_ROOT; };
 		167C227D49AE1DF22A9670D3 /* AliensVsSoldiers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AliensVsSoldiers.h; path = Source/AliensVsSoldiers/AliensVsSoldiers.h; sourceTree = SOURCE_ROOT; };
-		1BFAB2607181942F62E658FC /* UE4CmdLineRun.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UE4CmdLineRun.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CC0C48A3CFC44132C06556 /* AliensVsSoldiersEditor.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = AliensVsSoldiersEditor.Target.cs; path = Source/AliensVsSoldiersEditor.Target.cs; sourceTree = SOURCE_ROOT; };
-		4C0AEEB6388CDD35C5F225B9 /* UE4Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UE4Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C15D57593E70AEEFE33308F /* Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest; path = UE4CmdLineRun.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1F5A0B8E8D75A431D857B6 /* libUE4XcodeHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUE4XcodeHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC3F0274D9B92692A43FFF1 /* AliensVsSoldiersCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AliensVsSoldiersCharacter.h; path = Source/AliensVsSoldiers/AliensVsSoldiersCharacter.h; sourceTree = SOURCE_ROOT; };
-		55C54D6E25F988E611BE8773 /* AliensVsSoldiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliensVsSoldiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4FB93698598D3C8A044BA9 /* AliensVsSoldiers.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = AliensVsSoldiers.Build.cs; path = Source/AliensVsSoldiers/AliensVsSoldiers.Build.cs; sourceTree = SOURCE_ROOT; };
+		630307AAB52865F03D999F32 /* BaseEnemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseEnemy.h; path = Source/AliensVsSoldiers/BaseEnemy.h; sourceTree = SOURCE_ROOT; };
 		8CA2447BF93186A677AFE370 /* AliensVsSoldiers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AliensVsSoldiers.cpp; path = Source/AliensVsSoldiers/AliensVsSoldiers.cpp; sourceTree = SOURCE_ROOT; };
+		951EBE700E1E3304CD95ED30 /* BaseEnemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = BaseEnemy.cpp; path = Source/AliensVsSoldiers/BaseEnemy.cpp; sourceTree = SOURCE_ROOT; };
+		954CCE718B7016AAC88B6DCA /* BaseCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseCharacter.h; path = Source/AliensVsSoldiers/BaseCharacter.h; sourceTree = SOURCE_ROOT; };
 		97CF3D094393E428A5BE6C9F /* AliensVsSoldiers.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = AliensVsSoldiers.Target.cs; path = Source/AliensVsSoldiers.Target.cs; sourceTree = SOURCE_ROOT; };
 		A47583D39BC1D423D3160307 /* AliensVsSoldiersGameMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AliensVsSoldiersGameMode.cpp; path = Source/AliensVsSoldiers/AliensVsSoldiersGameMode.cpp; sourceTree = SOURCE_ROOT; };
 		A743184ECB60240A81B372C8 /* AliensVsSoldiersCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AliensVsSoldiersCharacter.cpp; path = Source/AliensVsSoldiers/AliensVsSoldiersCharacter.cpp; sourceTree = SOURCE_ROOT; };
-		CE60842587D4A34E55A4C75D /* libUE4XcodeHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUE4XcodeHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5112A7A1C24D902E09D739D /* Engine/Binaries/IOS/Payload/UE4Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Engine/Binaries/IOS/Payload/UE4Game.app; path = UE4Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D356DD6F3C2B1CC423765105 /* AliensVsSoldiersGameMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AliensVsSoldiersGameMode.h; path = Source/AliensVsSoldiers/AliensVsSoldiersGameMode.h; sourceTree = SOURCE_ROOT; };
-		E028028FE68DDDFB9D2BCF1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E002071189E07B34B505D209 /* BaseCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = BaseCharacter.cpp; path = Source/AliensVsSoldiers/BaseCharacter.cpp; sourceTree = SOURCE_ROOT; };
 		E9F4AF7E825EF1DFD800CFF7 /* AliensVsSoldiersPlayerController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AliensVsSoldiersPlayerController.cpp; path = Source/AliensVsSoldiers/AliensVsSoldiersPlayerController.cpp; sourceTree = SOURCE_ROOT; };
 		ED6F70175452C465C26356ED /* AliensVsSoldiers.uproject */ = {isa = PBXFileReference; lastKnownFileType = file.text; path = AliensVsSoldiers.uproject; sourceTree = SOURCE_ROOT; };
+		F95DBEE24092F2F4977DA35F /* AliensVsSoldiers/Binaries/IOS/Payload/AliensVsSoldiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AliensVsSoldiers/Binaries/IOS/Payload/AliensVsSoldiers.app; path = AliensVsSoldiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA5C7832D6409013F327161 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		218920EFE04144E374789075 /* Frameworks */ = {
+		08A643E93FEA45CE26754695 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B0BF8403EAC1CAD6D91C5F /* XCTest.framework in Frameworks */,
+				C3011E703A01BAB9B7EBF01A /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27FC515F02F02C47BA7CA1B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EBD3C2F60ABCDE99458E4453 /* Frameworks */ = {
+		0E8D11E4C2F898455432EF2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7B0A48960FF79ABE56FC202 /* Frameworks */ = {
+		71665C6627798BD8F3C6E09B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC2E49E2BEEF45A683AFFE79 /* OpenGLES.framework in Frameworks */,
-				BCCC87E20BAB24AE16CD5F88 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EFBD0C27B9584A0DA16688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0AEEB6388CDD35C5F225B9 /* OpenGLES.framework in Frameworks */,
+				46627B330CAB02EBB190595F /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		219AB00F3137966DD59EFB1E /* Products */ = {
+		3277BF8ED795E3892109D843 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE60842587D4A34E55A4C75D /* libUE4XcodeHelper.a */,
-				1BFAB2607181942F62E658FC /* UE4CmdLineRun.xctest */,
-				4C0AEEB6388CDD35C5F225B9 /* UE4Game.app */,
-				55C54D6E25F988E611BE8773 /* AliensVsSoldiers.app */,
+				4A1F5A0B8E8D75A431D857B6 /* libUE4XcodeHelper.a */,
+				2C15D57593E70AEEFE33308F /* Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest */,
+				C5112A7A1C24D902E09D739D /* Engine/Binaries/IOS/Payload/UE4Game.app */,
+				F95DBEE24092F2F4977DA35F /* AliensVsSoldiers/Binaries/IOS/Payload/AliensVsSoldiers.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65FBD23EF80E8F86337F3EA2 /* AliensVsSoldiers */ = {
+		39F81C77165CEC26719BF71D /* AliensVsSoldiers */ = {
 			isa = PBXGroup;
 			children = (
 				5C4FB93698598D3C8A044BA9 /* AliensVsSoldiers.Build.cs */,
 				8CA2447BF93186A677AFE370 /* AliensVsSoldiers.cpp */,
 				167C227D49AE1DF22A9670D3 /* AliensVsSoldiers.h */,
-				A743184ECB60240A81B372C8 /* AliensVsSoldiersCharacter.cpp */,
-				4EC3F0274D9B92692A43FFF1 /* AliensVsSoldiersCharacter.h */,
+				6A8BE5491B4463DF00D606D6 /* Characters */,
 				A47583D39BC1D423D3160307 /* AliensVsSoldiersGameMode.cpp */,
 				D356DD6F3C2B1CC423765105 /* AliensVsSoldiersGameMode.h */,
 				E9F4AF7E825EF1DFD800CFF7 /* AliensVsSoldiersPlayerController.cpp */,
@@ -110,29 +115,42 @@
 			path = Source/AliensVsSoldiers;
 			sourceTree = "<group>";
 		};
-		7789DDDFF9038CCB54ACB8D9 /* Frameworks */ = {
+		5F1B9B30C42F260C8DB15732 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08A643E93FEA45CE26754695 /* OpenGLES.framework */,
-				E028028FE68DDDFB9D2BCF1C /* XCTest.framework */,
+				07B10EDE3DACF141FA264895 /* OpenGLES.framework */,
+				FBA5C7832D6409013F327161 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC059D13F3C339A5501183B8 = {
+		6A83F29E14FD61F14D3FAD88 = {
 			isa = PBXGroup;
 			children = (
-				F6B75A6838DA13FB325E1836 /* Source */,
-				219AB00F3137966DD59EFB1E /* Products */,
-				7789DDDFF9038CCB54ACB8D9 /* Frameworks */,
+				72DC17C10102D5469E9BFA27 /* Source */,
+				3277BF8ED795E3892109D843 /* Products */,
+				5F1B9B30C42F260C8DB15732 /* Frameworks */,
 				ED6F70175452C465C26356ED /* AliensVsSoldiers.uproject */,
 			);
 			sourceTree = "<group>";
 		};
-		F6B75A6838DA13FB325E1836 /* Source */ = {
+		6A8BE5491B4463DF00D606D6 /* Characters */ = {
 			isa = PBXGroup;
 			children = (
-				65FBD23EF80E8F86337F3EA2 /* AliensVsSoldiers */,
+				A743184ECB60240A81B372C8 /* AliensVsSoldiersCharacter.cpp */,
+				4EC3F0274D9B92692A43FFF1 /* AliensVsSoldiersCharacter.h */,
+				E002071189E07B34B505D209 /* BaseCharacter.cpp */,
+				954CCE718B7016AAC88B6DCA /* BaseCharacter.h */,
+				951EBE700E1E3304CD95ED30 /* BaseEnemy.cpp */,
+				630307AAB52865F03D999F32 /* BaseEnemy.h */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
+		72DC17C10102D5469E9BFA27 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				39F81C77165CEC26719BF71D /* AliensVsSoldiers */,
 				97CF3D094393E428A5BE6C9F /* AliensVsSoldiers.Target.cs */,
 				20CC0C48A3CFC44132C06556 /* AliensVsSoldiersEditor.Target.cs */,
 			);
@@ -142,24 +160,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		00BE260A16A0CE7F35958E3E /* AliensVsSoldiers - Mac */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) AliensVsSoldiers $(PLATFORM_NAME) $(CONFIGURATION) \"$(PROJECT_DIR)/AliensVsSoldiers.uproject\"";
-			buildConfigurationList = C5112A7A1C24D902E09D739D /* Build configuration list for PBXLegacyTarget "AliensVsSoldiers - Mac" */;
-			buildPhases = (
-			);
-			buildToolPath = /Users/Shared/UnrealEngine/4.8/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
-			buildWorkingDirectory = /Users/Shared/UnrealEngine/4.8;
-			dependencies = (
-			);
-			name = "AliensVsSoldiers - Mac";
-			passBuildSettingsInEnvironment = 0;
-			productName = "AliensVsSoldiers - Mac";
-		};
-		28A72D5FA3E9427667A8831D /* UE4Game - Mac */ = {
+		3E4AABE44FF34061FAA59C31 /* UE4Game - Mac */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) UE4Game $(PLATFORM_NAME) $(CONFIGURATION)";
-			buildConfigurationList = 41D0BCDEFAAA0303DD8C073C /* Build configuration list for PBXLegacyTarget "UE4Game - Mac" */;
+			buildConfigurationList = D0BA79D6B14CF19350FB2B38 /* Build configuration list for PBXLegacyTarget "UE4Game - Mac" */;
 			buildPhases = (
 			);
 			buildToolPath = /Users/Shared/UnrealEngine/4.8/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
@@ -170,10 +174,10 @@
 			passBuildSettingsInEnvironment = 0;
 			productName = "UE4Game - Mac";
 		};
-		2C15D57593E70AEEFE33308F /* UE4Editor - Mac */ = {
+		8BAAA87D36562B939314C3F9 /* UE4Editor - Mac */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) UE4Editor $(PLATFORM_NAME) $(CONFIGURATION)";
-			buildConfigurationList = 2A888BD5F61FC741B65B9764 /* Build configuration list for PBXLegacyTarget "UE4Editor - Mac" */;
+			buildConfigurationList = 4A254C8216B8BCDEC2BDDDC9 /* Build configuration list for PBXLegacyTarget "UE4Editor - Mac" */;
 			buildPhases = (
 			);
 			buildToolPath = /Users/Shared/UnrealEngine/4.8/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
@@ -184,10 +188,24 @@
 			passBuildSettingsInEnvironment = 0;
 			productName = "UE4Editor - Mac";
 		};
-		97019536C54C69922637ED54 /* AliensVsSoldiersEditor - Mac */ = {
+		ACF0E24254FFB89239EBE569 /* AliensVsSoldiers - Mac */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) AliensVsSoldiers $(PLATFORM_NAME) $(CONFIGURATION) \"$(PROJECT_DIR)/AliensVsSoldiers.uproject\"";
+			buildConfigurationList = 832C00AA2B7F62B3BF119F4A /* Build configuration list for PBXLegacyTarget "AliensVsSoldiers - Mac" */;
+			buildPhases = (
+			);
+			buildToolPath = /Users/Shared/UnrealEngine/4.8/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
+			buildWorkingDirectory = /Users/Shared/UnrealEngine/4.8;
+			dependencies = (
+			);
+			name = "AliensVsSoldiers - Mac";
+			passBuildSettingsInEnvironment = 0;
+			productName = "AliensVsSoldiers - Mac";
+		};
+		B3B4E08A75695199A4B33E55 /* AliensVsSoldiersEditor - Mac */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) AliensVsSoldiersEditor $(PLATFORM_NAME) $(CONFIGURATION) \"$(PROJECT_DIR)/AliensVsSoldiers.uproject\"";
-			buildConfigurationList = F95DBEE24092F2F4977DA35F /* Build configuration list for PBXLegacyTarget "AliensVsSoldiersEditor - Mac" */;
+			buildConfigurationList = 1DDA87392E0AF982B6BF1B0E /* Build configuration list for PBXLegacyTarget "AliensVsSoldiersEditor - Mac" */;
 			buildPhases = (
 			);
 			buildToolPath = /Users/Shared/UnrealEngine/4.8/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
@@ -201,65 +219,13 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		71665C6627798BD8F3C6E09B /* UE4CmdLineRun */ = {
+		140E7939346D7B526D616B76 /* UE4XcodeHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99F495ECD564234DD5A824B8 /* Build configuration list for PBXNativeTarget "UE4CmdLineRun" */;
+			buildConfigurationList = 1632F6FC771B88F0B647367E /* Build configuration list for PBXNativeTarget "UE4XcodeHelper" */;
 			buildPhases = (
-				4A1F5A0B8E8D75A431D857B6 /* Sources */,
-				218920EFE04144E374789075 /* Frameworks */,
-				A259AB801A307B6AEDB99BC9 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UE4CmdLineRun;
-			productName = UE4CmdLineRun;
-			productReference = 1BFAB2607181942F62E658FC /* UE4CmdLineRun.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7DBEBEB590062C9C08543094 /* AliensVsSoldiers - iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6387DD5F837FAA75754A56F4 /* Build configuration list for PBXNativeTarget "AliensVsSoldiers - iOS" */;
-			buildPhases = (
-				F314FDAE91BEC1B7DEA8BA41 /* Sources */,
-				27FC515F02F02C47BA7CA1B6 /* Frameworks */,
-				DFFE753A5D76854B03D9AB89 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D8F0B5705801C940381D33BE /* PBXTargetDependency */,
-			);
-			name = "AliensVsSoldiers - iOS";
-			productName = "AliensVsSoldiers - iOS";
-			productReference = 55C54D6E25F988E611BE8773 /* AliensVsSoldiers.app */;
-			productType = "com.apple.product-type.application";
-		};
-		8D7357E291811922B747401D /* UE4Game - iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1A72AA97E7798FC95DBDCA6 /* Build configuration list for PBXNativeTarget "UE4Game - iOS" */;
-			buildPhases = (
-				08A039578AEA0BBE46E3C1F8 /* Sources */,
-				F7B0A48960FF79ABE56FC202 /* Frameworks */,
-				91CDE48D40B698A0F88D6D4E /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "UE4Game - iOS";
-			productName = "UE4Game - iOS";
-			productReference = 4C0AEEB6388CDD35C5F225B9 /* UE4Game.app */;
-			productType = "com.apple.product-type.application";
-		};
-		C4C6D628DEF83BD3D40540F3 /* UE4XcodeHelper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 99201926DB0EB9B486C9B329 /* Build configuration list for PBXNativeTarget "UE4XcodeHelper" */;
-			buildPhases = (
-				304B8AF15375C9C27F4EB257 /* Sources */,
-				EBD3C2F60ABCDE99458E4453 /* Frameworks */,
-				DC1A9B176783D9FF6CAF514F /* ShellScript */,
+				4C4D10AAA4EBEC968EAB2931 /* Sources */,
+				71665C6627798BD8F3C6E09B /* Frameworks */,
+				99F495ECD564234DD5A824B8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -267,44 +233,96 @@
 			);
 			name = UE4XcodeHelper;
 			productName = UE4XcodeHelper;
-			productReference = CE60842587D4A34E55A4C75D /* libUE4XcodeHelper.a */;
+			productReference = 4A1F5A0B8E8D75A431D857B6 /* libUE4XcodeHelper.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		1F82B301152A8440F3511FFD /* UE4CmdLineRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3918D7DC451F58B04CF00C11 /* Build configuration list for PBXNativeTarget "UE4CmdLineRun" */;
+			buildPhases = (
+				08A57C5B25B00FA4FA5E4857 /* Sources */,
+				08A643E93FEA45CE26754695 /* Frameworks */,
+				E028028FE68DDDFB9D2BCF1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UE4CmdLineRun;
+			productName = UE4CmdLineRun;
+			productReference = 2C15D57593E70AEEFE33308F /* Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E848AE55E83181D29788A08 /* AliensVsSoldiers - iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D4031E8E54F84FF7628E09 /* Build configuration list for PBXNativeTarget "AliensVsSoldiers - iOS" */;
+			buildPhases = (
+				6738E7EFDB450C93FB7D85E9 /* Sources */,
+				0E8D11E4C2F898455432EF2D /* Frameworks */,
+				97019536C54C69922637ED54 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60579C64312CFB6402F4F77B /* PBXTargetDependency */,
+			);
+			name = "AliensVsSoldiers - iOS";
+			productName = "AliensVsSoldiers - iOS";
+			productReference = F95DBEE24092F2F4977DA35F /* AliensVsSoldiers/Binaries/IOS/Payload/AliensVsSoldiers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3A58B9FE1E8B2B839D656C1 /* UE4Game - iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E1A5808E36F7D8122F6B41 /* Build configuration list for PBXNativeTarget "UE4Game - iOS" */;
+			buildPhases = (
+				5634D7BFB487A1507E061DA1 /* Sources */,
+				F2EFBD0C27B9584A0DA16688 /* Frameworks */,
+				00BE260A16A0CE7F35958E3E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UE4Game - iOS";
+			productName = "UE4Game - iOS";
+			productReference = C5112A7A1C24D902E09D739D /* Engine/Binaries/IOS/Payload/UE4Game.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EA67AE4DC1CC22D98259FCFB /* Project object */ = {
+		AF8981999AE121878D4F3558 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = EpicGames;
 			};
-			buildConfigurationList = E002071189E07B34B505D209 /* Build configuration list for PBXProject "AliensVsSoldiers" */;
+			buildConfigurationList = E0F5BA6AACDC12000E7EEE79 /* Build configuration list for PBXProject "AliensVsSoldiers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DC059D13F3C339A5501183B8;
-			productRefGroup = 219AB00F3137966DD59EFB1E /* Products */;
+			mainGroup = 6A83F29E14FD61F14D3FAD88;
+			productRefGroup = 3277BF8ED795E3892109D843 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4C6D628DEF83BD3D40540F3 /* UE4XcodeHelper */,
-				71665C6627798BD8F3C6E09B /* UE4CmdLineRun */,
-				2C15D57593E70AEEFE33308F /* UE4Editor - Mac */,
-				28A72D5FA3E9427667A8831D /* UE4Game - Mac */,
-				8D7357E291811922B747401D /* UE4Game - iOS */,
-				00BE260A16A0CE7F35958E3E /* AliensVsSoldiers - Mac */,
-				7DBEBEB590062C9C08543094 /* AliensVsSoldiers - iOS */,
-				97019536C54C69922637ED54 /* AliensVsSoldiersEditor - Mac */,
+				140E7939346D7B526D616B76 /* UE4XcodeHelper */,
+				1F82B301152A8440F3511FFD /* UE4CmdLineRun */,
+				8BAAA87D36562B939314C3F9 /* UE4Editor - Mac */,
+				3E4AABE44FF34061FAA59C31 /* UE4Game - Mac */,
+				D3A58B9FE1E8B2B839D656C1 /* UE4Game - iOS */,
+				ACF0E24254FFB89239EBE569 /* AliensVsSoldiers - Mac */,
+				9E848AE55E83181D29788A08 /* AliensVsSoldiers - iOS */,
+				B3B4E08A75695199A4B33E55 /* AliensVsSoldiersEditor - Mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		91CDE48D40B698A0F88D6D4E /* ShellScript */ = {
+		00BE260A16A0CE7F35958E3E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,25 +331,7 @@
 			shellPath = /bin/sh;
 			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/UE4Game.app/ $DSTROOT/$LOCAL_APPS_DIR/UE4Game.app\nfi";
 		};
-		A259AB801A307B6AEDB99BC9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest/ $DSTROOT/$LOCAL_APPS_DIR/UE4CmdLineRun.xctest\nfi";
-		};
-		DC1A9B176783D9FF6CAF514F /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/libUE4XcodeHelper.a/ $DSTROOT/$LOCAL_APPS_DIR/libUE4XcodeHelper.a\nfi";
-		};
-		DFFE753A5D76854B03D9AB89 /* ShellScript */ = {
+		97019536C54C69922637ED54 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,17 +340,35 @@
 			shellPath = /bin/sh;
 			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R AliensVsSoldiers/Binaries/IOS/Payload/AliensVsSoldiers.app/ $DSTROOT/$LOCAL_APPS_DIR/AliensVsSoldiers.app\nfi";
 		};
+		99F495ECD564234DD5A824B8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/libUE4XcodeHelper.a/ $DSTROOT/$LOCAL_APPS_DIR/libUE4XcodeHelper.a\nfi";
+		};
+		E028028FE68DDDFB9D2BCF1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $DEPLOYMENT_LOCATION = \"YES\" ]\nthen\ncp -R Engine/Binaries/IOS/Payload/UE4CmdLineRun.xctest/ $DSTROOT/$LOCAL_APPS_DIR/UE4CmdLineRun.xctest\nfi";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08A039578AEA0BBE46E3C1F8 /* Sources */ = {
+		08A57C5B25B00FA4FA5E4857 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		304B8AF15375C9C27F4EB257 /* Sources */ = {
+		4C4D10AAA4EBEC968EAB2931 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,17 +376,19 @@
 				573FA31DA8864EE68C9F2CC0 /* AliensVsSoldiersCharacter.cpp in Sources */,
 				3A74E6D1621E1980B066B31B /* AliensVsSoldiersGameMode.cpp in Sources */,
 				86207B060E929527C45D1B41 /* AliensVsSoldiersPlayerController.cpp in Sources */,
+				EA67AE4DC1CC22D98259FCFB /* BaseCharacter.cpp in Sources */,
+				C1FB2861CD3BF4769C098E24 /* BaseEnemy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A1F5A0B8E8D75A431D857B6 /* Sources */ = {
+		5634D7BFB487A1507E061DA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F314FDAE91BEC1B7DEA8BA41 /* Sources */ = {
+		6738E7EFDB450C93FB7D85E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,28 +398,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D8F0B5705801C940381D33BE /* PBXTargetDependency */ = {
+		60579C64312CFB6402F4F77B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00BE260A16A0CE7F35958E3E /* AliensVsSoldiers - Mac */;
-			targetProxy = 35008173A41C46AAF9C7A531 /* PBXContainerItemProxy */;
+			target = ACF0E24254FFB89239EBE569 /* AliensVsSoldiers - Mac */;
+			targetProxy = 55C54D6E25F988E611BE8773 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		114D642D9C7F9FC7BD150F58 /* DebugGame */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = DebugGame;
-		};
-		140E7939346D7B526D616B76 /* Development */ = {
+		08A039578AEA0BBE46E3C1F8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -420,7 +427,20 @@
 			};
 			name = Development;
 		};
-		1632F6FC771B88F0B647367E /* Shipping */ = {
+		11EADE84366004839289A548 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = DebugGame;
+		};
+		218920EFE04144E374789075 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -439,9 +459,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
 			};
-			name = Shipping;
+			name = Development;
 		};
-		1DDA87392E0AF982B6BF1B0E /* Shipping */ = {
+		219AB00F3137966DD59EFB1E /* DebugGame */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -452,87 +472,9 @@
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
 			};
-			name = Shipping;
-		};
-		1E47832DE3C1D83A7AABCECB /* DebugGame */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = Binaries/IOS/Payload/UE4CmdLineRun.app/UE4CmdLineRun;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
-				CONFIGURATION_BUILD_DIR = Binaries/IOS/Payload;
-				COPY_PHASE_STRIP = NO;
-				DYNAMIC_NO_PIC = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = "";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Build/IOS/UE4CmdLineRun/UE4CmdLineRun-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OBJROOT = Intermediate/IOS/build;
-				ONLY_ACTIVE_ARCH = NO;
-				OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SYMROOT = Binaries/IOS;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "";
-				WRAPPER_EXTENSION = xctest;
-			};
 			name = DebugGame;
 		};
-		1F82B301152A8440F3511FFD /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = Binaries/IOS/Payload/UE4CmdLineRun.app/UE4CmdLineRun;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
-				CONFIGURATION_BUILD_DIR = Binaries/IOS/Payload;
-				COPY_PHASE_STRIP = NO;
-				DYNAMIC_NO_PIC = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = "";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Build/IOS/UE4CmdLineRun/UE4CmdLineRun-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OBJROOT = Intermediate/IOS/build;
-				ONLY_ACTIVE_ARCH = NO;
-				OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SYMROOT = Binaries/IOS;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Development;
-		};
-		350067B294A60A1D145F0E9C /* DebugGame */ = {
+		2DC8E8890C6C09D77D4988E7 /* Shipping */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -553,9 +495,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
-			name = DebugGame;
+			name = Shipping;
 		};
-		3918D7DC451F58B04CF00C11 /* Shipping */ = {
+		46BC77453B920EF68BDB1B65 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -592,53 +534,9 @@
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = xctest;
 			};
-			name = Shipping;
-		};
-		3E4AABE44FF34061FAA59C31 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
-				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
 			name = Development;
 		};
-		4226C96F7B68869A738A6CEC /* DebugGame */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
-				CONFIGURATION_BUILD_DIR = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Binaries/IOS/Payload;
-				GCC_PREPROCESSOR_DEFINITIONS = "";
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "/Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Intermediate/IOS/AliensVsSoldiers-Info.plist";
-				INFOPLIST_OUTPUT_FORMAT = xml;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OBJROOT = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Intermediate/IOS/build;
-				"PRODUCT_NAME[sdk=iphoneos*]" = AliensVsSoldiers;
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "AliensVsSoldiers-simulator";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SYMROOT = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Binaries/IOS;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = DebugGame;
-		};
-		44A4E6F6FC44854E0260F133 /* DebugGame */ = {
+		60FF03618E14A76CB68465B4 /* DebugGame */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -735,119 +633,7 @@
 			};
 			name = DebugGame;
 		};
-		4A254C8216B8BCDEC2BDDDC9 /* Shipping */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Shipping;
-		};
-		558AA6F7294E8CC5C8B000A2 /* DebugGame */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
-				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = DebugGame;
-		};
-		56D4031E8E54F84FF7628E09 /* Shipping */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
-				CONFIGURATION_BUILD_DIR = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Binaries/IOS/Payload;
-				GCC_PREPROCESSOR_DEFINITIONS = "";
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "/Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Intermediate/IOS/AliensVsSoldiers-Info.plist";
-				INFOPLIST_OUTPUT_FORMAT = xml;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OBJROOT = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Intermediate/IOS/build;
-				"PRODUCT_NAME[sdk=iphoneos*]" = AliensVsSoldiers;
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "AliensVsSoldiers-simulator";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SYMROOT = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Binaries/IOS;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Shipping;
-		};
-		832C00AA2B7F62B3BF119F4A /* Shipping */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
-				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = Shipping;
-		};
-		8BAAA87D36562B939314C3F9 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
-			};
-			name = Development;
-		};
-		93BE4DAE665D008E1FA0F9A2 /* DebugGame */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
-				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = DebugGame;
-		};
-		9E848AE55E83181D29788A08 /* Development */ = {
+		61232FDE3757A37F3123E82A /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -870,7 +656,82 @@
 			};
 			name = Development;
 		};
-		ACF0E24254FFB89239EBE569 /* Development */ = {
+		65FBD23EF80E8F86337F3EA2 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Shipping;
+		};
+		6B205DEBF2DC3E1A90574F6A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/UE4Game-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OBJROOT = /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/build;
+				"PRODUCT_NAME[sdk=iphoneos*]" = UE4Game;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "UE4Game-simulator";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Development;
+		};
+		885885536277C7E908F86E1C /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = Binaries/IOS/Payload/UE4CmdLineRun.app/UE4CmdLineRun;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = Binaries/IOS/Payload;
+				COPY_PHASE_STRIP = NO;
+				DYNAMIC_NO_PIC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Build/IOS/UE4CmdLineRun/UE4CmdLineRun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OBJROOT = Intermediate/IOS/build;
+				ONLY_ACTIVE_ARCH = NO;
+				OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = Binaries/IOS;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Shipping;
+		};
+		8DAC4A1071667CEE18B3193A /* DebugGame */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -889,9 +750,286 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
 			};
-			name = Development;
+			name = DebugGame;
 		};
-		AF8981999AE121878D4F3558 /* Development */ = {
+		9140E4FDDFAC7C3BEADE1ECA /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Shipping;
+		};
+		91CDE48D40B698A0F88D6D4E /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		A259AB801A307B6AEDB99BC9 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		B93443B07DF671E8F5CE1937 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Binaries/IOS/Payload;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Intermediate/IOS/AliensVsSoldiers-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OBJROOT = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Intermediate/IOS/build;
+				"PRODUCT_NAME[sdk=iphoneos*]" = AliensVsSoldiers;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "AliensVsSoldiers-simulator";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Binaries/IOS;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Shipping;
+		};
+		D09E4550A31718F35A557D48 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = Binaries/IOS/Payload/UE4CmdLineRun.app/UE4CmdLineRun;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = Binaries/IOS/Payload;
+				COPY_PHASE_STRIP = NO;
+				DYNAMIC_NO_PIC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Build/IOS/UE4CmdLineRun/UE4CmdLineRun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OBJROOT = Intermediate/IOS/build;
+				ONLY_ACTIVE_ARCH = NO;
+				OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = Binaries/IOS;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = DebugGame;
+		};
+		D301A35AAF950E4E2F3DDB15 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		DC1A9B176783D9FF6CAF514F /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"ALIENSVSSOLDIERS_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"DATABASESUPPORT_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"VECTORVM_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"KISMET_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SYMROOT = Intermediate/Build;
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.8/Engine/Source Source Intermediate/Build/Mac/UE4Editor/Inc/AliensVsSoldiers /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SynthBenchmark /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.8/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/FeaturePack /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine Source/AliensVsSoldiers";
+				USE_HEADERMAP = NO;
+			};
+			name = Shipping;
+		};
+		DFFE753A5D76854B03D9AB89 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		E8D91ABD8838468A6202FEB2 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
+				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		EBD3C2F60ABCDE99458E4453 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -988,7 +1126,7 @@
 			};
 			name = Development;
 		};
-		B3B4E08A75695199A4B33E55 /* Development */ = {
+		F0F604080DA7621A6D933C9E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1001,7 +1139,7 @@
 			};
 			name = Development;
 		};
-		CC8EC9B937AA320E7E6F9518 /* DebugGame */ = {
+		F314FDAE91BEC1B7DEA8BA41 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1019,280 +1157,162 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		F6B75A6838DA13FB325E1836 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Development;
+		};
+		F6EF6A347F66C43EB4952451 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/UE4Game-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OBJROOT = /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/build;
+				"PRODUCT_NAME[sdk=iphoneos*]" = UE4Game;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "UE4Game-simulator";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SYMROOT = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = DebugGame;
 		};
-		D0BA79D6B14CF19350FB2B38 /* Shipping */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = Engine/Binaries/IOS/Payload;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				"PRODUCT_NAME[sdk=iphoneos*]" = "$(TARGET_NAME)";
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "$(TARGET_NAME)-simulator";
-				"PRODUCT_NAME[sdk=macosx*]" = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				"SDKROOT[arch=arm*]" = iphoneos;
-				"SDKROOT[arch=x86_64]" = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
-			};
-			name = Shipping;
-		};
-		D3A58B9FE1E8B2B839D656C1 /* Development */ = {
+		FC47952A8A75E1D0BC300A9D /* DebugGame */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
-				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				CONFIGURATION_BUILD_DIR = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Binaries/IOS/Payload;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/UE4Game-Info.plist";
+				INFOPLIST_FILE = "/Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Intermediate/IOS/AliensVsSoldiers-Info.plist";
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OBJROOT = /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/build;
-				"PRODUCT_NAME[sdk=iphoneos*]" = UE4Game;
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "UE4Game-simulator";
+				OBJROOT = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Intermediate/IOS/build;
+				"PRODUCT_NAME[sdk=iphoneos*]" = AliensVsSoldiers;
+				"PRODUCT_NAME[sdk=iphonesimulator*]" = "AliensVsSoldiers-simulator";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SYMROOT = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
+				SYMROOT = /Users/migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Binaries/IOS;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Development;
-		};
-		E0F5BA6AACDC12000E7EEE79 /* Shipping */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_ENABLE_CPP_RTTI = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"UE_EDITOR=1",
-					"IS_PROGRAM=0",
-					UNICODE,
-					_UNICODE,
-					__UNREAL__,
-					"IS_MONOLITHIC=0",
-					"WITH_ENGINE=1",
-					"WITH_UNREAL_DEVELOPER_TOOLS=1",
-					"WITH_COREUOBJECT=1",
-					"USE_STATS_WITHOUT_ENGINE=0",
-					"WITH_PLUGIN_SUPPORT=0",
-					"USE_LOGGING_IN_SHIPPING=0",
-					"UE_BUILD_MINIMAL=0",
-					"WITH_EDITOR=1",
-					"WITH_SERVER_CODE=1",
-					"UBT_COMPILED_PLATFORM=Mac",
-					"PLATFORM_MAC=1",
-					"PLATFORM_APPLE=1",
-					"WITH_TTS=0",
-					"WITH_SPEECH_RECOGNITION=0",
-					"WITH_DATABASE_SUPPORT=0",
-					"NDEBUG=1",
-					"UE_BUILD_DEVELOPMENT=1",
-					"DEPRECATED_FORGAME=DEPRECATED",
-					"ALIENSVSSOLDIERS_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_STEAMWORKS=1",
-					"WITH_DIRECTXMATH=0",
-					"CORE_API=",
-					"COREUOBJECT_API=",
-					"WITH_PHYSX=1",
-					"WITH_APEX=1",
-					WITH_RUNTIME_PHYSICS_COOKING,
-					"WITH_BOX2D=0",
-					"WITH_RECAST=1",
-					"ENGINE_API=",
-					"JSON_API=",
-					"WITH_FREETYPE=1",
-					"SLATECORE_API=",
-					"INPUTCORE_API=",
-					"SLATE_API=",
-					"MESSAGING_API=",
-					"RENDERCORE_API=",
-					"RHI_API=",
-					"SHADERCORE_API=",
-					"ASSETREGISTRY_API=",
-					"ENGINEMESSAGES_API=",
-					"ENGINESETTINGS_API=",
-					"SYNTHBENCHMARK_API=",
-					"RENDERER_API=",
-					"AIMODULE_API=",
-					"GAMEPLAYTAGS_API=",
-					"DATABASESUPPORT_API=",
-					"UNREALED_API=",
-					"BSPMODE_API=",
-					"DIRECTORYWATCHER_API=",
-					"DOCUMENTATION_API=",
-					"PROJECTS_API=",
-					"SANDBOXFILE_API=",
-					"EDITORSTYLE_API=",
-					"SOURCECONTROL_API=",
-					"UNREALEDMESSAGES_API=",
-					"BLUEPRINTGRAPH_API=",
-					"HTTP_PACKAGE=1",
-					"HTTP_API=",
-					"UNREALAUDIO_API=",
-					"NIAGARA_API=",
-					"VECTORVM_API=",
-					"UNREALAUDIOCOREAUDIO_API=",
-					"USERFEEDBACK_API=",
-					"COLLECTIONMANAGER_API=",
-					"NIAGARAEDITOR_API=",
-					"GRAPHEDITOR_API=",
-					"INTROTUTORIALS_API=",
-					"LEVELEDITOR_API=",
-					"SETTINGS_API=",
-					"KISMET_API=",
-					"MONOLITHIC_BUILD=1",
-				);
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				SYMROOT = Intermediate/Build;
-				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.8/Engine/Source Source Intermediate/Build/Mac/UE4Editor/Inc/AliensVsSoldiers /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SynthBenchmark /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.8/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/FeaturePack /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/Kismet /Users/Shared/UnrealEngine/4.8/Engine/Source/Runtime/Engine Source/AliensVsSoldiers";
-				USE_HEADERMAP = NO;
-			};
-			name = Shipping;
-		};
-		F1E1A5808E36F7D8122F6B41 /* Shipping */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_RESOURCE_RULES_PATH = /Users/Shared/UnrealEngine/4.8/Engine/Build/iOS/XcodeSupportFiles/CustomResourceRules.plist;
-				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
-				GCC_PREPROCESSOR_DEFINITIONS = "";
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "/Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/UE4Game-Info.plist";
-				INFOPLIST_OUTPUT_FORMAT = xml;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OBJROOT = /Users/Shared/UnrealEngine/4.8/Engine/Intermediate/IOS/build;
-				"PRODUCT_NAME[sdk=iphoneos*]" = UE4Game;
-				"PRODUCT_NAME[sdk=iphonesimulator*]" = "UE4Game-simulator";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SYMROOT = /Users/Shared/UnrealEngine/4.8/Engine/Binaries/IOS/Payload;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Shipping;
-		};
-		FF81A1EF5F4BE60DB441AD13 /* DebugGame */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.8/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				VALID_ARCHS = x86_64;
 			};
 			name = DebugGame;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A888BD5F61FC741B65B9764 /* Build configuration list for PBXLegacyTarget "UE4Editor - Mac" */ = {
+		1632F6FC771B88F0B647367E /* Build configuration list for PBXNativeTarget "UE4XcodeHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				114D642D9C7F9FC7BD150F58 /* DebugGame */,
-				8BAAA87D36562B939314C3F9 /* Development */,
-				4A254C8216B8BCDEC2BDDDC9 /* Shipping */,
+				8DAC4A1071667CEE18B3193A /* DebugGame */,
+				218920EFE04144E374789075 /* Development */,
+				A259AB801A307B6AEDB99BC9 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		41D0BCDEFAAA0303DD8C073C /* Build configuration list for PBXLegacyTarget "UE4Game - Mac" */ = {
+		1DDA87392E0AF982B6BF1B0E /* Build configuration list for PBXLegacyTarget "AliensVsSoldiersEditor - Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				558AA6F7294E8CC5C8B000A2 /* DebugGame */,
-				3E4AABE44FF34061FAA59C31 /* Development */,
-				D0BA79D6B14CF19350FB2B38 /* Shipping */,
+				219AB00F3137966DD59EFB1E /* DebugGame */,
+				F6B75A6838DA13FB325E1836 /* Development */,
+				65FBD23EF80E8F86337F3EA2 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		6387DD5F837FAA75754A56F4 /* Build configuration list for PBXNativeTarget "AliensVsSoldiers - iOS" */ = {
+		3918D7DC451F58B04CF00C11 /* Build configuration list for PBXNativeTarget "UE4CmdLineRun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4226C96F7B68869A738A6CEC /* DebugGame */,
-				9E848AE55E83181D29788A08 /* Development */,
-				56D4031E8E54F84FF7628E09 /* Shipping */,
+				D09E4550A31718F35A557D48 /* DebugGame */,
+				46BC77453B920EF68BDB1B65 /* Development */,
+				885885536277C7E908F86E1C /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		99201926DB0EB9B486C9B329 /* Build configuration list for PBXNativeTarget "UE4XcodeHelper" */ = {
+		4A254C8216B8BCDEC2BDDDC9 /* Build configuration list for PBXLegacyTarget "UE4Editor - Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93BE4DAE665D008E1FA0F9A2 /* DebugGame */,
-				140E7939346D7B526D616B76 /* Development */,
-				1632F6FC771B88F0B647367E /* Shipping */,
+				11EADE84366004839289A548 /* DebugGame */,
+				F0F604080DA7621A6D933C9E /* Development */,
+				9140E4FDDFAC7C3BEADE1ECA /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		99F495ECD564234DD5A824B8 /* Build configuration list for PBXNativeTarget "UE4CmdLineRun" */ = {
+		56D4031E8E54F84FF7628E09 /* Build configuration list for PBXNativeTarget "AliensVsSoldiers - iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E47832DE3C1D83A7AABCECB /* DebugGame */,
-				1F82B301152A8440F3511FFD /* Development */,
-				3918D7DC451F58B04CF00C11 /* Shipping */,
+				FC47952A8A75E1D0BC300A9D /* DebugGame */,
+				61232FDE3757A37F3123E82A /* Development */,
+				B93443B07DF671E8F5CE1937 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		C5112A7A1C24D902E09D739D /* Build configuration list for PBXLegacyTarget "AliensVsSoldiers - Mac" */ = {
+		832C00AA2B7F62B3BF119F4A /* Build configuration list for PBXLegacyTarget "AliensVsSoldiers - Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC8EC9B937AA320E7E6F9518 /* DebugGame */,
-				ACF0E24254FFB89239EBE569 /* Development */,
-				832C00AA2B7F62B3BF119F4A /* Shipping */,
+				DFFE753A5D76854B03D9AB89 /* DebugGame */,
+				F314FDAE91BEC1B7DEA8BA41 /* Development */,
+				E8D91ABD8838468A6202FEB2 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		D1A72AA97E7798FC95DBDCA6 /* Build configuration list for PBXNativeTarget "UE4Game - iOS" */ = {
+		D0BA79D6B14CF19350FB2B38 /* Build configuration list for PBXLegacyTarget "UE4Game - Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				350067B294A60A1D145F0E9C /* DebugGame */,
-				D3A58B9FE1E8B2B839D656C1 /* Development */,
-				F1E1A5808E36F7D8122F6B41 /* Shipping */,
+				91CDE48D40B698A0F88D6D4E /* DebugGame */,
+				08A039578AEA0BBE46E3C1F8 /* Development */,
+				D301A35AAF950E4E2F3DDB15 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		E002071189E07B34B505D209 /* Build configuration list for PBXProject "AliensVsSoldiers" */ = {
+		E0F5BA6AACDC12000E7EEE79 /* Build configuration list for PBXProject "AliensVsSoldiers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44A4E6F6FC44854E0260F133 /* DebugGame */,
-				AF8981999AE121878D4F3558 /* Development */,
-				E0F5BA6AACDC12000E7EEE79 /* Shipping */,
+				60FF03618E14A76CB68465B4 /* DebugGame */,
+				EBD3C2F60ABCDE99458E4453 /* Development */,
+				DC1A9B176783D9FF6CAF514F /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		F95DBEE24092F2F4977DA35F /* Build configuration list for PBXLegacyTarget "AliensVsSoldiersEditor - Mac" */ = {
+		F1E1A5808E36F7D8122F6B41 /* Build configuration list for PBXNativeTarget "UE4Game - iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF81A1EF5F4BE60DB441AD13 /* DebugGame */,
-				B3B4E08A75695199A4B33E55 /* Development */,
-				1DDA87392E0AF982B6BF1B0E /* Shipping */,
+				F6EF6A347F66C43EB4952451 /* DebugGame */,
+				6B205DEBF2DC3E1A90574F6A /* Development */,
+				2DC8E8890C6C09D77D4988E7 /* Shipping */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EA67AE4DC1CC22D98259FCFB /* Project object */;
+	rootObject = AF8981999AE121878D4F3558 /* Project object */;
 }

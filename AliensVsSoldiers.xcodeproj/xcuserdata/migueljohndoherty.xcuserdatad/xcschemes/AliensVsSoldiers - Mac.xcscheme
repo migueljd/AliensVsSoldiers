@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00BE260A16A0CE7F35958E3E"
+               BlueprintIdentifier = "ACF0E24254FFB89239EBE569"
                BuildableName = "AliensVsSoldiers - Mac"
                BlueprintName = "AliensVsSoldiers - Mac"
                ReferencedContainer = "container:AliensVsSoldiers.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71665C6627798BD8F3C6E09B"
+               BlueprintIdentifier = "1F82B301152A8440F3511FFD"
                BuildableName = "UE4CmdLineRun.xctest"
                BlueprintName = "UE4CmdLineRun"
                ReferencedContainer = "container:AliensVsSoldiers.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00BE260A16A0CE7F35958E3E"
+            BlueprintIdentifier = "ACF0E24254FFB89239EBE569"
             BuildableName = "AliensVsSoldiers - Mac"
             BlueprintName = "AliensVsSoldiers - Mac"
             ReferencedContainer = "container:AliensVsSoldiers.xcodeproj">
@@ -65,7 +65,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00BE260A16A0CE7F35958E3E"
+            BlueprintIdentifier = "ACF0E24254FFB89239EBE569"
             BuildableName = "AliensVsSoldiers - Mac"
             BlueprintName = "AliensVsSoldiers - Mac"
             ReferencedContainer = "container:AliensVsSoldiers.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00BE260A16A0CE7F35958E3E"
+            BlueprintIdentifier = "ACF0E24254FFB89239EBE569"
             BuildableName = "AliensVsSoldiers.app"
             BlueprintName = "AliensVsSoldiers"
             ReferencedContainer = "container:UE4.xcodeproj">

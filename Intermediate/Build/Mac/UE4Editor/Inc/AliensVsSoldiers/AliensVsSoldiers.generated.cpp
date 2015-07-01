@@ -21,6 +21,14 @@ void EmptyLinkFunctionForGeneratedCodeAliensVsSoldiers() {}
 	{
 	}
 	IMPLEMENT_CLASS(AAliensVsSoldiersPlayerController, 1189143891);
+	void ABaseCharacter::StaticRegisterNativesABaseCharacter()
+	{
+	}
+	IMPLEMENT_CLASS(ABaseCharacter, 2183234867);
+	void ABaseEnemy::StaticRegisterNativesABaseEnemy()
+	{
+	}
+	IMPLEMENT_CLASS(ABaseEnemy, 1485793381);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
@@ -28,6 +36,7 @@ void EmptyLinkFunctionForGeneratedCodeAliensVsSoldiers() {}
 	ENGINE_API class UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameMode();
 	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
+	ENGINE_API class UClass* Z_Construct_UClass_APawn();
 
 	ALIENSVSSOLDIERS_API class UClass* Z_Construct_UClass_AAliensVsSoldiersCharacter_NoRegister();
 	ALIENSVSSOLDIERS_API class UClass* Z_Construct_UClass_AAliensVsSoldiersCharacter();
@@ -35,6 +44,10 @@ void EmptyLinkFunctionForGeneratedCodeAliensVsSoldiers() {}
 	ALIENSVSSOLDIERS_API class UClass* Z_Construct_UClass_AAliensVsSoldiersGameMode();
 	ALIENSVSSOLDIERS_API class UClass* Z_Construct_UClass_AAliensVsSoldiersPlayerController_NoRegister();
 	ALIENSVSSOLDIERS_API class UClass* Z_Construct_UClass_AAliensVsSoldiersPlayerController();
+	ALIENSVSSOLDIERS_API class UClass* Z_Construct_UClass_ABaseCharacter_NoRegister();
+	ALIENSVSSOLDIERS_API class UClass* Z_Construct_UClass_ABaseCharacter();
+	ALIENSVSSOLDIERS_API class UClass* Z_Construct_UClass_ABaseEnemy_NoRegister();
+	ALIENSVSSOLDIERS_API class UClass* Z_Construct_UClass_ABaseEnemy();
 	ALIENSVSSOLDIERS_API class UPackage* Z_Construct_UPackage_AliensVsSoldiers();
 	UClass* Z_Construct_UClass_AAliensVsSoldiersCharacter_NoRegister()
 	{
@@ -151,6 +164,92 @@ PRAGMA_POP
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAliensVsSoldiersPlayerController(Z_Construct_UClass_AAliensVsSoldiersPlayerController, TEXT("AAliensVsSoldiersPlayerController"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAliensVsSoldiersPlayerController);
+	UClass* Z_Construct_UClass_ABaseCharacter_NoRegister()
+	{
+		return ABaseCharacter::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ABaseCharacter()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_ACharacter();
+			Z_Construct_UPackage_AliensVsSoldiers();
+			OuterClass = ABaseCharacter::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_Target = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Target"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(Target, ABaseCharacter), 0x0000000000000005, Z_Construct_UClass_ABaseCharacter_NoRegister());
+				UProperty* NewProp_CameraBoom = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CameraBoom"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(CameraBoom, ABaseCharacter), 0x00000000000a001d, Z_Construct_UClass_USpringArmComponent_NoRegister());
+				UProperty* NewProp_TopDownCameraComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("TopDownCameraComponent"), RF_Public|RF_Transient|RF_Native) UObjectProperty(CPP_PROPERTY_BASE(TopDownCameraComponent, ABaseCharacter), 0x00000000000a001d, Z_Construct_UClass_UCameraComponent_NoRegister());
+PRAGMA_POP
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintType"), TEXT("true"));
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Pawn|Character|InternalEvents Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BaseCharacter.h"));
+				MetaData->SetValue(OuterClass, TEXT("IsBlueprintBase"), TEXT("true"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BaseCharacter.h"));
+				MetaData->SetValue(NewProp_Target, TEXT("Category"), TEXT("Target"));
+				MetaData->SetValue(NewProp_Target, TEXT("ModuleRelativePath"), TEXT("BaseCharacter.h"));
+				MetaData->SetValue(NewProp_Target, TEXT("ToolTip"), TEXT("The target for the current BaseCharacter"));
+				MetaData->SetValue(NewProp_CameraBoom, TEXT("AllowPrivateAccess"), TEXT("true"));
+				MetaData->SetValue(NewProp_CameraBoom, TEXT("Category"), TEXT("Camera"));
+				MetaData->SetValue(NewProp_CameraBoom, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_CameraBoom, TEXT("ModuleRelativePath"), TEXT("BaseCharacter.h"));
+				MetaData->SetValue(NewProp_CameraBoom, TEXT("ToolTip"), TEXT("Camera boom positioning the camera above the character"));
+				MetaData->SetValue(NewProp_TopDownCameraComponent, TEXT("AllowPrivateAccess"), TEXT("true"));
+				MetaData->SetValue(NewProp_TopDownCameraComponent, TEXT("Category"), TEXT("Camera"));
+				MetaData->SetValue(NewProp_TopDownCameraComponent, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_TopDownCameraComponent, TEXT("ModuleRelativePath"), TEXT("BaseCharacter.h"));
+				MetaData->SetValue(NewProp_TopDownCameraComponent, TEXT("ToolTip"), TEXT("Top down camera"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseCharacter(Z_Construct_UClass_ABaseCharacter, TEXT("ABaseCharacter"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseCharacter);
+	UClass* Z_Construct_UClass_ABaseEnemy_NoRegister()
+	{
+		return ABaseEnemy::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ABaseEnemy()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_APawn();
+			Z_Construct_UPackage_AliensVsSoldiers();
+			OuterClass = ABaseEnemy::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintType"), TEXT("true"));
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BaseEnemy.h"));
+				MetaData->SetValue(OuterClass, TEXT("IsBlueprintBase"), TEXT("true"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BaseEnemy.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ABaseEnemy(Z_Construct_UClass_ABaseEnemy, TEXT("ABaseEnemy"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ABaseEnemy);
 	UPackage* Z_Construct_UPackage_AliensVsSoldiers()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -159,8 +258,8 @@ PRAGMA_POP
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/AliensVsSoldiers")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x3AD21F83;
-			Guid.B = 0x57B0CFAB;
+			Guid.A = 0xA336C4BF;
+			Guid.B = 0xFA778930;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

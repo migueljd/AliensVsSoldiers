@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/AliensVsSoldiers/AliensVsSoldiersCharacter.h"
+            timestampString = "457453573.531254"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "class AAliensVsSoldiersCharacter"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AAliensVsSoldiersCharacter::_getUObject() const"
+                  moduleName = "UE4Editor-AliensVsSoldiers-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shared/UnrealEngine/4.8/Engine/Source/../../../../../migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Source/AliensVsSoldiers/AliensVsSoldiersCharacter.h"
+                  timestampString = "457453942.147487"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "non-virtual thunk to AAliensVsSoldiersCharacter::_getUObject() const"
+                  moduleName = "UE4Editor-AliensVsSoldiers-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shared/UnrealEngine/4.8/Engine/Source/../../../../../migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Source/AliensVsSoldiers/AliensVsSoldiersCharacter.h"
+                  timestampString = "457453942.148398"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AAliensVsSoldiersCharacter::StaticClass()"
+                  moduleName = "UE4Editor-AliensVsSoldiers-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shared/UnrealEngine/4.8/Engine/Source/../../../../../migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Source/AliensVsSoldiers/AliensVsSoldiersCharacter.h"
+                  timestampString = "457453942.148522"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "11">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AAliensVsSoldiersCharacter::StaticClassCastFlags()"
+                  moduleName = "UE4Editor-AliensVsSoldiers-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shared/UnrealEngine/4.8/Engine/Source/../../../../../migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Source/AliensVsSoldiers/AliensVsSoldiersCharacter.h"
+                  timestampString = "457453942.148661"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "6">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AAliensVsSoldiersCharacter::__VTableCtorCaller(FVTableHelper&amp;)"
+                  moduleName = "UE4Editor-AliensVsSoldiers-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shared/UnrealEngine/4.8/Engine/Source/../../../../../migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Source/AliensVsSoldiers/AliensVsSoldiersCharacter.h"
+                  timestampString = "457453942.148903"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AAliensVsSoldiersCharacter::operator new(unsigned long, EInternal, UObject*, FName, EObjectFlags)"
+                  moduleName = "UE4Editor-AliensVsSoldiers-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shared/UnrealEngine/4.8/Engine/Source/../../../../../migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Source/AliensVsSoldiers/AliensVsSoldiersCharacter.h"
+                  timestampString = "457453942.149024"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "47">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AAliensVsSoldiersCharacter::__DefaultConstructor(FObjectInitializer const&amp;)"
+                  moduleName = "UE4Editor-AliensVsSoldiers-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shared/UnrealEngine/4.8/Engine/Source/../../../../../migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Source/AliensVsSoldiers/AliensVsSoldiersCharacter.h"
+                  timestampString = "457453942.149136"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AAliensVsSoldiersCharacter::operator new(unsigned long, EInternal*)"
+                  moduleName = "UE4Editor-AliensVsSoldiers-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shared/UnrealEngine/4.8/Engine/Source/../../../../../migueljohndoherty/Devel/Unreal/AliensVsSoldiers/Source/AliensVsSoldiers/AliensVsSoldiersCharacter.h"
+                  timestampString = "457453942.149238"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

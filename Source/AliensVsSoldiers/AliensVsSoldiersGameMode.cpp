@@ -11,7 +11,7 @@ AAliensVsSoldiersGameMode::AAliensVsSoldiersGameMode()
 	PlayerControllerClass = AAliensVsSoldiersPlayerController::StaticClass();
 
 	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/TopDown/Blueprints/TopDownCharacter"));
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/Game/Blueprints/BP_BaseCharacter"));
 	if (PlayerPawnBPClass.Class != NULL)
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
