@@ -39,6 +39,6 @@ public:
 
     //The target for the current BaseCharacter
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Target)
-    ABaseCharacter* OldTarget;
+    ABaseCharacter* Target;
 	
 };

@@ -7,8 +7,6 @@
 // Sets default values
 ABaseCharacter::ABaseCharacter()
 {
-    UE_LOG(LogAliensVsSoldiers, Warning, TEXT("Base character initialized"));
-
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 

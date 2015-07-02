@@ -3,7 +3,7 @@
 #include "GameFramework/PlayerController.h"
 #include "AliensVsSoldiersPlayerController.generated.h"
 
-UCLASS(Blueprintable, BlueprintType)
+UCLASS()
 class AAliensVsSoldiersPlayerController : public APlayerController
 {
 	GENERATED_BODY()
@@ -13,7 +13,6 @@ public:
 
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
-    UPROPERTY(BlueprintReadOnly)
 	uint32 bMoveToMouseCursor : 1;
 
 	// Begin PlayerController interface

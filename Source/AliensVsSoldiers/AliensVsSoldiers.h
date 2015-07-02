@@ -3,7 +3,7 @@
 #ifndef __ALIENSVSSOLDIERS_H__
 #define __ALIENSVSSOLDIERS_H__
 
-#include "Engine.h"
+#include "EngineMinimal.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(LogAliensVsSoldiers, Log, All);
 
