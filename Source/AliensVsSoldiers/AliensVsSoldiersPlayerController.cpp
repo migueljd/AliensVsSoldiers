@@ -3,6 +3,7 @@
 #include "AliensVsSoldiers.h"
 #include "AliensVsSoldiersPlayerController.h"
 #include "AI/Navigation/NavigationSystem.h"
+#include "BaseCharacter.h"
 
 AAliensVsSoldiersPlayerController::AAliensVsSoldiersPlayerController()
 {
@@ -23,15 +24,17 @@ void AAliensVsSoldiersPlayerController::PlayerTick(float DeltaTime)
 
 void AAliensVsSoldiersPlayerController::SetupInputComponent()
 {
+    UE_LOG(LogAliensVsSoldiers, Warning, TEXT("Setting up input components"));
+
 	// set up gameplay key bindings
 	Super::SetupInputComponent();
 
-	InputComponent->BindAction("SetDestination", IE_Pressed, this, &AAliensVsSoldiersPlayerController::OnSetDestinationPressed);
-	InputComponent->BindAction("SetDestination", IE_Released, this, &AAliensVsSoldiersPlayerController::OnSetDestinationReleased);
-
-	// support touch devices 
-	InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AAliensVsSoldiersPlayerController::MoveToTouchLocation);
-	InputComponent->BindTouch(EInputEvent::IE_Repeat, this, &AAliensVsSoldiersPlayerController::MoveToTouchLocation);
+//	InputComponent->BindAction("SetDestination", IE_Pressed, this, &AAliensVsSoldiersPlayerController::OnSetDestinationPressed);
+//	InputComponent->BindAction("SetDestination", IE_Released, this, &AAliensVsSoldiersPlayerController::OnSetDestinationReleased);
+//
+//	// support touch devices 
+//	InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AAliensVsSoldiersPlayerController::MoveToTouchLocation);
+//	InputComponent->BindTouch(EInputEvent::IE_Repeat, this, &AAliensVsSoldiersPlayerController::MoveToTouchLocation);
 }
 
 void AAliensVsSoldiersPlayerController::MoveToMouseCursor()
@@ -39,11 +42,34 @@ void AAliensVsSoldiersPlayerController::MoveToMouseCursor()
 	// Trace to see what is under the mouse cursor
 	FHitResult Hit;
 	GetHitResultUnderCursor(ECC_Visibility, false, Hit);
+    
+
 
 	if (Hit.bBlockingHit)
 	{
-		// We hit something, move there
-		SetNewMoveDestination(Hit.ImpactPoint);
+
+        try{
+       
+            AActor* actorHit = Hit.GetActor();
+        
+            ABaseCharacter* tryCast ;
+            tryCast=dynamic_cast<ABaseCharacter* >(actorHit);
+        
+
+            
+            if( tryCast == 0){
+            
+                // We hit something, move there
+                SetNewMoveDestination(Hit.ImpactPoint);
+
+            }
+            //if an exception is cast, it means that we didn't hit an enemy
+        } catch(std::exception& e){
+
+
+            // We hit something that isn't an enemy, move there
+            SetNewMoveDestination(Hit.ImpactPoint);
+        }
 	}
 }
 
@@ -53,16 +79,40 @@ void AAliensVsSoldiersPlayerController::MoveToTouchLocation(const ETouchIndex::T
 
 	// Trace to see what is under the touch location
 	FHitResult HitResult;
-	GetHitResultAtScreenPosition(ScreenSpaceLocation, CurrentClickTraceChannel, true, HitResult);
-	if (HitResult.bBlockingHit)
-	{
-		// We hit something, move there
-		SetNewMoveDestination(HitResult.ImpactPoint);
-	}
+	GetHitResultAtScreenPosition(ScreenSpaceLocation, CurrentClickTraceChannel, true, HitResult);    
+    
+    if (HitResult.bBlockingHit)
+    {
+        
+        try{
+            
+            AActor* actorHit = HitResult.GetActor();
+            
+            ABaseCharacter* tryCast ;
+            tryCast=dynamic_cast<ABaseCharacter* >(actorHit);
+            
+            
+            
+            if( tryCast == 0){
+                
+                // We hit something, move there
+                SetNewMoveDestination(HitResult.ImpactPoint);                
+            }
+            //if an exception is cast, it means that we didn't hit an enemy
+        } catch(std::exception& e){
+            
+            if(GEngine)
+                GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Exception launched");
+            
+            // We hit something that isn't an enemy, move there
+            SetNewMoveDestination(HitResult.ImpactPoint);
+        }
+    }
 }
 
 void AAliensVsSoldiersPlayerController::SetNewMoveDestination(const FVector DestLocation)
 {
+
 	APawn* const Pawn = GetPawn();
 	if (Pawn)
 	{

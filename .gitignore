@@ -1,4 +1,7 @@
-/Binaries
-/DerivedDataCache
-/Intermediate
-/Saved
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+AliensVsSoldiers.xcodeproj/
+
+*.xcscheme
